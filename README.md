@@ -21,11 +21,12 @@ This project is a simple, low-cost navigation assistant designed for motorcyclis
 - Android: Requires the Chronos app (by fbiego) to send custom navigation data via BLE.
 
 ## How It Works
-Power on the ESP32; it waits for a BLE connection and shows the current time.
-Pair with the Chronos app; the OLED updates to "Connected" with time.
-Open Google Maps on your phone, start navigation, and manually send commands (e.g., NAV:left:50) via Chronos based on the instructions.
-The OLED displays the corresponding arrow and distance until a STOP_NAV command is sent or the connection is lost.
-Usage
+- Power on the ESP32; it waits for a BLE connection and shows the current time.
+- Pair with the Chronos app; the OLED updates to "Connected" with time.
+- Open Google Maps on your phone, start navigation, and manually send commands (e.g., NAV:left:50) via Chronos based on the instructions.
+- The OLED displays the corresponding arrow and distance until a STOP_NAV command is sent or the connection is lost.
+
+## Usage
 Ideal for motorcyclists who want a hands-free, glanceable navigation aid. Mount the ESP32 and OLED on your bike, connect via Chronos, and input navigation data as you ride.
 
 ## Future Improvements
