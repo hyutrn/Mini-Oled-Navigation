@@ -35,3 +35,6 @@ Mount on a motorcycle for a glanceable navigation aid. Pair with Chronos, input 
 
 
 #### License
+
+#### Idea:
+https://github.com/appleshaman/CarPlayBLE/tree/main
